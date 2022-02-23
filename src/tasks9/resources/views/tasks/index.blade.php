@@ -9,7 +9,7 @@
 @section('content')
 
 <h1>タスク一覧</h1>
-<a href="{{route('tasks.create')}}" class="btn btn-success">新規追加</a>
+
 <table class="table">
     <tr>
         <th>登録日</th>

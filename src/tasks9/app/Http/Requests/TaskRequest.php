@@ -42,7 +42,7 @@ class TaskRequest extends FormRequest
             'title.required' => 'タイトルは必ず入力してください。',
             'title.max' => 'タイトルは30文字以内で入力してください。',
             'description.required' => '説明は必ず入力してください。',
-            'description.max' => '説明は100文字以内で入力してください。',
+            'description.max' => '説明は00文字以内で入力してください。',
             'expiration_date.required' => '期限日は必ず入力してください。',
             'expiration_date.date' => '期限日は正しい日付形式で入力してください。',
             'completion_date.date' => '完了日は正しい日付形式で入力してください。',
